@@ -172,4 +172,4 @@
 -resource:"D:\Data\Blog\NancyAPI\CoreNancyAPI\NancyCoreAPI\src\NancyCoreAPI\obj\Debug\netcoreapp1.0\NancyCoreAPIdotnet-compile.deps.json",NancyCoreAPI.deps.json
 "D:\Data\Blog\NancyAPI\CoreNancyAPI\NancyCoreAPI\src\NancyCoreAPI\Program.cs"
 "D:\Data\Blog\NancyAPI\CoreNancyAPI\NancyCoreAPI\src\NancyCoreAPI\Startup.cs"
-"D:\Data\Blog\NancyAPI\CoreNancyAPI\NancyCoreAPI\src\NancyCoreAPI\Controllers\ValuesController.cs"
+"D:\Data\Blog\NancyAPI\CoreNancyAPI\NancyCoreAPI\src\NancyCoreAPI\Module\HomeModule.cs"
