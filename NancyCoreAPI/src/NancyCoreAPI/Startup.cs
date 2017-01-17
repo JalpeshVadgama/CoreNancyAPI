@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Nancy.Owin;
 
 namespace NancyCoreAPI
 {
@@ -37,7 +38,8 @@ namespace NancyCoreAPI
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseMvc();
+            app.UseOwin(n => n.UseNancy());
+
         }
     }
 }
