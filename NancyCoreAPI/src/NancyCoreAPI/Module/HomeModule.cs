@@ -6,7 +6,7 @@ namespace NancyCoreAPI.Module
     {
         public HomeModule()
         {
-            Get("/", args => "Hello word from nancy module.");
+            Get("/", args => "Hello world from nancy module.");
         }
     }
 }

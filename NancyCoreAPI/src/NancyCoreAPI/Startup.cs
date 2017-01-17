@@ -39,7 +39,6 @@ namespace NancyCoreAPI
             loggerFactory.AddDebug();
 
             app.UseOwin(n => n.UseNancy());
-
         }
     }
 }
